@@ -22,8 +22,6 @@ func main() {
 		if string(line[pos%len(line)]) == "#" {
 			tree++
 		}
-		fmt.Println(line, pos, pos%len(line))
-		fmt.Println(string(line[pos%len(line)]))
 	}
 	fmt.Println(tree)
 }
